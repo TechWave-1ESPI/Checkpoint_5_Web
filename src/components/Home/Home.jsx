@@ -44,7 +44,7 @@ const Home = () => {
             </div>
           </div>
         {/* Cards */}
-          <div className='grid grid-cols-3 gap-6 max-w-screen-xl mx-auto mt-[7%] justify-center text-center'>
+        <div className='grid grid-cols-3 gap-6 max-w-screen-lg mx-auto mt-[7%] justify-center text-center'>
             <div className="flex flex-col cards py-10 bg-zinc-50 rounded-tr-[65px] rounded-bl-[65px] ">
               <div className="icon-part pb-3 flex justify-center items-center">
                 <BsFillClockFill className='text-orange-400 text-6xl'/>
