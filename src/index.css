@@ -10,6 +10,10 @@ body{
     box-shadow: 2px 2px 20px #f4704043;
 }
 
-.image-side img{
-    filter: drop-shadow(20px 10px 20px #f470407e);
+.image-side .poke{
+    filter: drop-shadow(20px 10px 20px #f4704036);
+}
+
+.cards{
+    filter: drop-shadow(0px 0px 8px #ffa17e4a);
 }
