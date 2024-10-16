@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: #1d1d1d
+}
+
+.btn-inicio button{
+    box-shadow: 2px 2px 20px #f4704043;
+}
+
+.image-side img{
+    filter: drop-shadow(20px 10px 20px #f470407e);
+}
