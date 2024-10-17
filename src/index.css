@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color: #1d1d1d
 }
@@ -16,4 +20,8 @@ body{
 
 .cards{
     filter: drop-shadow(0px 0px 8px #ffa17e4a);
+}
+
+.product{
+    filter: drop-shadow(0px 0px 10px #272625b0);
 }
