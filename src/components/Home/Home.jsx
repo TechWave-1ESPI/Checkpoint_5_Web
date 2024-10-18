@@ -23,7 +23,9 @@ const Home = () => {
                   <p className=' text-zinc-200'>Experience the best Poke restaurant in the world! We invite you to visit us at our store for a <br />dining experience that will tantalize your taste buds and leave you wanting more.</p>
                 </div>
                 <div className="btn-inicio">
-                  <button className='bg-orange-400 font-semibold rounded-xl px-4 py-[5px]'>BOOK A TABLE</button>
+                  <button className="relative border-2 rounded-md border-orange-400 bg-transparent py-2.5 px-5 font-medium uppercase text-orange-400 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-orange-400 before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-x-100">
+                    BOOK A TABLE
+                  </button>
                   <img src={Ingredient} className='ml-48 w-[80px] absolute'></img>
                 </div>
             </div>
