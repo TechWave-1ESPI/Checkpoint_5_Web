@@ -87,7 +87,7 @@ const Login = () => {
 
                         <ul className="list-none mt-8 flex flex-col items-center text-gray-600 text-sm">
                             <li>
-                                <span className="text-gray-800 mb-2">Não possui conta?</span>
+                                <span className="text-gray-800 mb-2">Não possui conta? </span>
                                 <Link to="/cadastrar-usuario" className="text-blue-600 font-medium transition duration-300 hover:text-blue-700">
                                     Criar
                                 </Link>
