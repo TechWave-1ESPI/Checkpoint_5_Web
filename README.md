@@ -1,6 +1,6 @@
 # Poke Restaurant Interactive Experience
 
-![Project Photo](assets/project-photo.png)
+![Project Photo](/src/assets/project-photo.png)
 
 An interactive web application designed to showcase our poke restaurant, providing users with information about our menu, commitment to sustainability, and the unique experience we offer.
 
