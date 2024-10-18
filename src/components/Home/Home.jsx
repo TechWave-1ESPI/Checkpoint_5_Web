@@ -6,6 +6,7 @@ import { BsFillClockFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
+import Sobre from '../Sobre/Sobre'
 import Produtos from '../Produtos/Produtos'
 
 const Home = () => {
@@ -72,7 +73,11 @@ const Home = () => {
             
           </div>
 
-          <Produtos/>
+          <section id='produtos'>
+            <Produtos/>
+          </section>
+
+          <Sobre/>
       </>
   )
 }

@@ -16,7 +16,7 @@ const Produtos = () => {
                     </div>
                     <div className='flex  w-[50%] justify-between items-center'>
                         <p className='line-through text-3xl font-medium '>$54.90</p>
-                        <button className='bg-orange-400 px-8 py-3 text-3xl font-medium rounded-xl drop-shadow-[0_0px_8px_rgba(0,0,0,0.25)]'>$39.99</button>
+                        <button className='bg-orange-400 px-8 py-3 text-3xl font-medium rounded-xl drop-shadow-[0_0px_8px_rgba(0,0,0,0.35)]'>$39.99</button>
                     </div>
                     
                 </div>
@@ -35,7 +35,7 @@ const Produtos = () => {
                         <p className='text-lg font-medium text-right text-gray-800 mt-2'>Rice and Vegetable Poke Savor our rice poke with fresh veggies and nutritious grains. A light and flavorful meal in every bite!</p>
                     </div>
                     <div className='flex justify-between items-center ml-[50%]'>
-                        <button className='bg-orange-400 px-8 py-3 text-3xl font-medium rounded-xl drop-shadow-[0_0px_8px_rgba(0,0,0,0.25)]'>$35.90</button>
+                        <button className='bg-orange-400 px-8 py-3 text-3xl font-medium rounded-xl drop-shadow-[0_0px_8px_rgba(0,0,0,0.35)]'>$35.90</button>
                         <p className='line-through text-3xl font-medium '>$48.99</p>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const Produtos = () => {
                     </div>
                     <div className='flex  w-[50%] justify-between items-center'>
                         <p className='line-through text-3xl font-medium '>$39.99</p>
-                        <button className='bg-orange-400 px-8 py-3 text-3xl font-medium rounded-xl drop-shadow-[0_0px_8px_rgba(0,0,0,0.25)]'>$29.90</button>
+                        <button className='bg-orange-400 px-8 py-3 text-3xl font-medium rounded-xl drop-shadow-[0_0px_8px_rgba(0,0,0,0.35)]'>$29.90</button>
                     </div>
                     
                 </div>

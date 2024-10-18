@@ -4,7 +4,7 @@ import { RiShoppingCart2Line } from "react-icons/ri";
 import { RiSearch2Line } from "react-icons/ri";
 
 
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 const Nav = () => {
     return (
@@ -15,9 +15,9 @@ const Nav = () => {
                     <p className='my-9 text-white text-3xl'>Poke<span className='text-orange-400'>Zizi</span></p>
                 </div>
                 <div className="links-part flex gap-x-5 my-9">
-                    <Link className="hover:text-zinc-200 transition-all duration-200">Home</Link>
-                    <Link className="hover:text-zinc-200 transition-all duration-200">Produtos</Link>
-                    <Link className="hover:text-zinc-200 transition-all duration-200">Sobre</Link>
+                    <a href='#' className="hover:text-zinc-200 transition-all duration-200">Home</a >
+                    <a href='#produtos' className="hover:text-zinc-200 transition-all duration-200">Produtos</a >
+                    <a href='#sobre' className="hover:text-zinc-200 transition-all duration-200">Sobre</a >
                 </div>
 
                 <div className="flex gap-3 login-part my-9 cursor-pointer ">
