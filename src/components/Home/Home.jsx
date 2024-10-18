@@ -16,7 +16,7 @@ const Home = () => {
       <>
       {/* Inicio */}
           <div className="grid grid-cols-3 gap-5 max-w-screen-xl mx-auto px-4 w-full"> 
-            <div className="col-span-2 my-20 w-full flex flex-col justify-center flex-grow z-50">
+            <div className="col-span-2 my-20 w-full flex flex-col justify-center flex-grow z-20">
               <h1 className="uppercase text-6xl font-bold text-zinc-200">
                 enjoy our delicious<br/>
                 <span className="text-orange-400">poke</span>
@@ -37,12 +37,12 @@ const Home = () => {
                 <img
                   src={Poke1}
                   alt="delicious poke"
-                  className="poke w-[400px] h-auto object-cover animate-spin-slow z-10" 
+                  className="poke w-[400px] h-auto object-cover animate-spin-slow z-10 min-w-96 sm:w-0 ml-32 sm:m-0" 
                 />
                 <img
                   src={Ingredient5}
-                  alt='salmao'
-                  className='absolute z-0 w-96 ml-24 '
+                  alt="salmao"
+                  className="absolute z-0 w-96 ml-24 -translate-x-[-20px] translate-y-8 sm:translate-y-0 sm:ml-24 sm:-translate-x-0 rotate-180 sm:rotate-0 "
                 />
               </div>
             </div>
