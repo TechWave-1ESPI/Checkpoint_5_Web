@@ -1,6 +1,8 @@
 import Poke1 from '../../assets/pokes/1.png'
 import Ingredient from '../../assets/ingredients/ingredient1.png'
 import Ingredient2 from '../../assets/ingredients/ingredient2.png'
+import Ingredient5 from '../../assets/ingredients/ingredient5.png'
+
 
 import { BsFillClockFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
@@ -14,7 +16,7 @@ const Home = () => {
       <>
       {/* Inicio */}
           <div className="grid grid-cols-3 gap-5 max-w-screen-xl mx-auto px-4 w-full"> 
-            <div className="col-span-2 my-20 w-full flex flex-col justify-center flex-grow">
+            <div className="col-span-2 my-20 w-full flex flex-col justify-center flex-grow z-50">
               <h1 className="uppercase text-6xl font-bold text-zinc-200">
                 enjoy our delicious<br/>
                 <span className="text-orange-400">poke</span>
@@ -38,8 +40,8 @@ const Home = () => {
                   className="poke w-[400px] h-auto object-cover animate-spin-slow z-10" 
                 />
                 <img
-                  src={Ingredient2}
-                  alt='mango'
+                  src={Ingredient5}
+                  alt='salmao'
                   className='absolute z-0 w-96 ml-24 '
                 />
               </div>
