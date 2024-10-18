@@ -13,7 +13,7 @@ const Home = () => {
   return (
       <>
       {/* Inicio */}
-          <div className="grid grid-cols-3 gap-5 max-w-screen-xl mx-auto px-4 w-full "> 
+          <div className="grid grid-cols-3 gap-5 max-w-screen-xl mx-auto px-4 w-full"> 
             <div className="col-span-2 my-20 w-full flex flex-col justify-center flex-grow">
               <h1 className="uppercase text-6xl font-bold text-zinc-200">
                 enjoy our delicious<br/>
@@ -79,7 +79,10 @@ const Home = () => {
             <Produtos/>
           </section>
 
-          <Sobre/>
+          <section id='sobre'>
+            <Sobre/>
+          </section>
+          
       </>
   )
 }
