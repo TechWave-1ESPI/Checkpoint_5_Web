@@ -1,6 +1,8 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram } from "react-icons/fa6";
 import { RiTwitterXFill } from "react-icons/ri";
+import { FaSquareFacebook } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -8,28 +10,28 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="https://github.com"
+            href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-600 transition duration-200"
+            className="hover:text-orange-600 transition duration-200"
           >
-            <FaGithub className="w-6 h-6" />
+            <FaInstagram className="w-6 h-6" />
           </a>
           <a
             href="https://x.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-600 transition duration-200"
+            className="hover:text-orange-600 transition duration-200"
           >
             <RiTwitterXFill className="w-6 h-6" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-600 transition duration-200"
+            className="hover:text-orange-600 transition duration-200"
           >
-            <FaLinkedin className="w-6 h-6" />
+            <FaSquareFacebook className="w-6 h-6" />
           </a>
         </div>
         <p className="text-gray-600">© 2020 PokeZizi, Inc. All rights reserved.</p>
