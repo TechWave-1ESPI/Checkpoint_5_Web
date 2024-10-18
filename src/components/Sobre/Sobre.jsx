@@ -6,7 +6,7 @@ const Sobre = () => {
             <img src={AboutImage} alt="store" className='w-[35%] rounded-[20px]' />
 
             <div className='w-[58%] py-[30px] '>
-                <h1 className='text-4xl font-bold text-white uppercase'>Who We Are?</h1>
+                <h1 className='text-4xl font-bold text-white uppercase'>Who Are We?</h1>
                 
                 <div className='flex mt-6 gap-3'>
                     <div className='w-[48%]'>
